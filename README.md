@@ -16,6 +16,8 @@ Não pode registrar uma disciplina com o mesmo nome
 A disciplina deve armazenar informações sobre as matérias que serão relacionadas à ela posteriormente
 Protótipo:
 
+![image](https://github.com/joaoeduardo2701/Gerador-de-Testes/assets/63940232/f3733a94-8799-4d7b-9bfc-1170fa9c64b6)
+
 Requisito 1.2: Editar Disciplinas
 	Critérios:
 Os critérios de validação são os mesmos do Requisito 1.1
@@ -33,6 +35,9 @@ O registro de matéria é composto por nome, disciplina e série
 Todos os campos são obrigatórios
 Não pode registrar uma matéria com o mesmo nome
 Protótipos:
+
+![image](https://github.com/joaoeduardo2701/Gerador-de-Testes/assets/63940232/8f6c1d5e-a060-47df-8891-b5205b5fb3b1)
+
 
 Requisito 2.2: Editar Matérias.
 	Critérios:
@@ -54,6 +59,7 @@ Todos os campos são obrigatórios
 Cada questão deve ter um mínimo e máximo de alternativas (máximo sugerido: 4)
 Protótipo:
 
+![image](https://github.com/joaoeduardo2701/Gerador-de-Testes/assets/63940232/85b11fd5-d53a-4cac-8014-63cc362eeba8)
 
 Requisito 3.2: Editar Questões.
 	Critérios:
@@ -87,6 +93,7 @@ Todos os campos são obrigatórios.
 As questões devem ser selecionadas de forma aleatória
 Protótipo:
 
+![image](https://github.com/joaoeduardo2701/Gerador-de-Testes/assets/63940232/c9177c64-bd7f-4d77-8203-f643a5a3e029)
 
 Requisito 4.2: Duplicar Testes.
 Critérios:
@@ -96,11 +103,7 @@ Não pode duplicar um teste com o mesmo nome
 Na duplicação do teste, as questões devem vir em branco
 Protótipo:
 
-
-
-
-
-
+![image](https://github.com/joaoeduardo2701/Gerador-de-Testes/assets/63940232/b38ade28-312e-4c95-af38-154dbe55f738)
 
 Requisito 4.3: Excluir Testes.
 	Critérios:
@@ -111,8 +114,9 @@ Deve exibir: Id, Título, Disciplina, Matéria (ou informar se é recuperação)
 Requisito 4.5: Visualizar Detalhes sobre Testes.
 Critérios:
 Deve ser possível visualizar os testes individualmente, com informações detalhadas incluindo as questões.
-		Protótipo:
+Protótipo:
 		
+![image](https://github.com/joaoeduardo2701/Gerador-de-Testes/assets/63940232/012db409-f209-4cdb-bd73-2b8156046b5b)
 
 Requisito 4.6: Gerar PDF dos Testes.
 Critérios:

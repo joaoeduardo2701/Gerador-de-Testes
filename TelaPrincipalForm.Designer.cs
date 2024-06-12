@@ -43,6 +43,7 @@
             toolStripSeparator1 = new ToolStripSeparator();
             lblTipoCadastro = new ToolStripLabel();
             pnlRegistros = new Panel();
+            questõesToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             label1.SuspendLayout();
             toolStrip1.SuspendLayout();
@@ -50,7 +51,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { disciplinasToolStripMenuItem, matériasToolStripMenuItem, testeToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { disciplinasToolStripMenuItem, matériasToolStripMenuItem, questõesToolStripMenuItem, testeToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
@@ -89,7 +90,7 @@
             // toolStripStatusLabel1
             // 
             toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(0, 20);
+            toolStripStatusLabel1.Size = new Size(0, 17);
             // 
             // statusLabelPrincipal
             // 
@@ -162,6 +163,12 @@
             pnlRegistros.Size = new Size(800, 367);
             pnlRegistros.TabIndex = 3;
             // 
+            // questõesToolStripMenuItem
+            // 
+            questõesToolStripMenuItem.Name = "questõesToolStripMenuItem";
+            questõesToolStripMenuItem.Size = new Size(68, 20);
+            questõesToolStripMenuItem.Text = "Questões";
+            // 
             // TelaPrincipalForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -204,5 +211,6 @@
         private ToolStripStatusLabel toolStripStatusLabel1;
         private Panel pnlRegistros;
         private ToolStripStatusLabel statusLabelPrincipal;
+        private ToolStripMenuItem questõesToolStripMenuItem;
     }
 }

@@ -1,3 +1,5 @@
+using Gerador_de_TestesWinApp.ModuloDisciplinas;
+
 namespace Gerador_de_TestesWinApp
 {
     internal static class Program
